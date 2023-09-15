@@ -11,3 +11,18 @@ for(let i in number){
     console.log(number[i])
 }
 
+const arr = number.map((element)=>element*2);
+console.log(arr);
+
+ const g = number.reduce((sum , value) => { return(sum + value)})
+ console.log(g);
+ 
+ const f = number.filter((element)=>{ 
+     return element % 2 != 0
+     
+ })
+ console.log(f)
+ 
+ const array4 =[10,20,30,40]
+ const abc = array4.flatMap((elements)=>[elements*2]);
+ console.log(abc)
