@@ -1,5 +1,4 @@
 let str = "today is tuesday";
-let array = [];
 let words = str.split(' ')
 console.log(words)
  const last = words.map((word)=>{
@@ -7,3 +6,4 @@ console.log(words)
   return word.slice(0,-1) + lastchar.toUpperCase();
  })
  console.log(last.join(" "));
+
